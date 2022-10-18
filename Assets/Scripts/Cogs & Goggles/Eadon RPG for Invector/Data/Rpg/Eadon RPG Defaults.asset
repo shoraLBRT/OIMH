@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98160307c4e83104d8ef2b5a92ce2ac6, type: 3}
+  m_Name: Eadon RPG Defaults
+  m_EditorClassIdentifier: 
+  baseHp: 100
+  hpPerLevel: 4
+  hpPerStatPoint: 1
+  baseMana: 100
+  manaPerStatPoint: 6
+  baseStamina: 150
+  resistancePerLevel: 0.05
+  damagePerLevel: 2
+  levelUpXpBase: 1000
+  levelUpXpBandCost: 250
+  armourReduction: 0.05
+  spellPowerScale: 0.01
+  spellPowerMax: 3
+  spellScaleIncreasePerLevel: 3
+  maxLevel: 999
+  statMinValue: 3
+  statMaxValue: 99
+  statInitialValue: 8
+  levelUpStatPoints: 4
+  initialUnspentStatPoints: 0
+  skillMaxValue: 99
+  skillInitialValue: 0
+  levelUpSkillPoints: 4
+  initialUnspentSkillPoints: 0
+  initialTalents: 1
+  levelsPerTalent: 3
+  baseWeightLimit: 20
+  weightIncreasePerStatPoint: 2
+  statBonusTiers:
+  - statValue: 10
+    bonus: 1
+  - statValue: 12
+    bonus: 2

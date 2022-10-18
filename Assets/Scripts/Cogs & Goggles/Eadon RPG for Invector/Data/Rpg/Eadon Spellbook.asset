@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!49 &4900000
+TextAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Eadon Spellbook
+  m_Script: '[{"SpellName":"Demo Spell","MagicID":100,"ManaCost":10,"IconAssetPath":"Assets/Cogs
+    & Goggles/Eadon RPG for Invector/Sprites/Fireball.png","UpperBodyOnly":false,"valid":true,"DamageTypeName":"Fire","sectionClipAssetPath":null,"speed":1.0,"mirror":false,"footIk":false,"cycleOffset":0.0,"leftHandParticleEffectAssetPath":null,"rightHandParticleEffectAssetPath":null,"chargeState":false,"spawnOverTime":[{"prefabAssetPath":"Assets/Cogs
+    & Goggles/Eadon RPG for Invector/Prefabs/Particles/Fireball Prefab.prefab","spawnStartTime":0.5,"spawnEndTime":0.5,"numberToSpawn":1,"destructionTimeOut":0.0,"spawnAudioClipAssetPath":null,"audioSourceAssetPath":null,"offset":{"x":0.0,"y":0.0,"z":0.0},"angle":{"x":0.0,"y":0.0,"z":0.0},"keepParent":false,"useRootTransform":false}]}]'

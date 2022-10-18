@@ -10,8 +10,10 @@ using System.Collections;
 public class CameraFacing : MonoBehaviour
 {
 	public Camera cameraToLookAt;
-	void Awake() {
-		cameraToLookAt = Camera.main; }
+	void Awake() 
+	{
+		cameraToLookAt = FindObjectOfType<Camera>();
+	}
 	void Update() 
 	{
 		Vector3 v = cameraToLookAt.transform.position - transform.position;

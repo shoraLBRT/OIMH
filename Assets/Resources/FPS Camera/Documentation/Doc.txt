@@ -1,0 +1,111 @@
+Content:
+----------------------------------------------------------------------------------------------------
+- vFirstPersonCamera.CS : The main script.
+- vFirstPersonCameraSwap.CS: (OPTIONAL) for ingame First/Third camera swap.
+- Demo scenes
+
+Instructions:
+-------------------------------------------------------------------------------------------------------------------
+
+vFirstPersonCamera.CS
+***********************
+
+1 - drop the inVector Controller prefab on your scene ad add this script on it.
+2 - remove all ThirdCamera by invector in scene; add a new camera and set it as MainCamera (or add a custom camera in "PC Camera" field.
+3 - use the ContextMenu to set the camera in the right position.
+
+vFirstPersonCameraSwap
+***********************
+1 - add the vFirstPersonCameraSwap component to the player gameObject.
+2 - assign the third camera prefab in inspector
+
+
+Optional code modifications:
+
+*** SHOOTER 2.5.1 ***************
+
+vShootermanager.cs
+-------------------------------------------------------------------------------------------------------------------
+Add Camera Sway support - replace line 744 with:
+
+} 
+else
+{
+	gameObject.SendMessage("SetOffset",new Vector2(bx + tx,by + ty),SendMessageOptions.DontRequireReceiver);
+}
+
+
+Add Camera Recoil support - replace line 708 with:
+
+if (tpCamera != null && applyRecoilToCamera)
+	{
+	tpCamera.RotateCamera(horizontal, up);
+	} 
+	else 
+	{
+		gameObject.SendMessage("SetRecoil",new Vector2(horizontal,up),SendMessageOptions.DontRequireReceiver);
+	} 
+
+
+
+
+vShooterIKAdjustWindow.cs
+-------------------------------------------------------------------------------------------------------------------
+Replace lines from 148 to 151 with:
+
+shooter = FindObjectOfType<vShooterMeleeInput>() as vShooterMeleeInput;
+if (shooter.tpCamera != null)
+	{
+		if (useLockCamera && GUILayout.Button(LockCamera ? "Unlock Camera" : "Lock Camera", EditorStyles.miniButton))
+		{
+		LockCamera = !LockCamera;
+		}
+	}
+else
+	{
+		vFirstPersonCamera fpCamera = FindObjectOfType<vFirstPersonCamera>() as vFirstPersonCamera;
+		if (useLockCamera && GUILayout.Button(fpCamera.disableMouseInput ? "Unlock FPCamera" : "Lock FPCamera", EditorStyles.miniButton))
+			{
+					fpCamera.disableMouseInput = !fpCamera.disableMouseInput;
+					fpCamera.resetHeadPosition = !fpCamera.resetHeadPosition;
+			}
+}
+
+Add at line 5
+
+using Invector.vCharacterController;
+
+Add at line 17
+
+ vShooterMeleeInput shooter;
+
+
+
+ADD-ON
+-------------------------------------------------------------------------------------------------------------------
+
+**** vBuilder ****
+
+vBuildObject.CS
+-------------------------------------------------------------------------------------------------------------------
+
+replace line 227 with:
+
+var dir = parent.position - Camera.main.transform.position - new Vector3(0, 0, 1);
+
+
+
+
+INTEGRATIONS
+-------------------------------------------------------------------------------------------------------------------
+
+**** Horse AnimSet Pro 4 ****
+
+- extract included package with edited HAP Link
+
+- add to M Rider events - (vFirstPersonCamera)isAction true/false - for OnEndMounting/OnEndDismounting
+- add to M Rider events - (vFirstPersonCamera)isCinematic true/false - for OnStartMounting/OnEndDismounting
+
+
+
+

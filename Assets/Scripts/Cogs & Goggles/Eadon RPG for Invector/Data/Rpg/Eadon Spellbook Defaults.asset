@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!49 &4900000
+TextAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Eadon Spellbook Defaults
+  m_Script: '{"defaultSpawnClip":"Assets/Cogs & Goggles/Eadon RPG for Invector/Animations/Default
+    Spawn.anim","defaultSpellCast":"Assets/Cogs & Goggles/Eadon RPG for Invector/Animations/Default
+    Cast.anim","defaultChargeInit":"Assets/Cogs & Goggles/Eadon RPG for Invector/Animations/Default
+    Charge.anim","defaultChargeHold":"Assets/Cogs & Goggles/Eadon RPG for Invector/Animations/Default
+    Charge.anim","defaultChargeRelease":"Assets/Cogs & Goggles/Eadon RPG for Invector/Animations/Default
+    Release.anim","defaultHandParticle":"Assets/Cogs & Goggles/Eadon RPG for Invector/Prefabs/Particles/FireHands.prefab","defaultItemList":"Assets/Cogs
+    & Goggles/Eadon RPG for Invector/Data/Invector/Eadon RPG Demo vItemList.asset","defaultRpgDefaults":"Assets/Cogs
+    & Goggles/Eadon RPG for Invector/Data/Rpg/Eadon RPG Defaults.asset","defaultCharacterConfig":"Assets/Cogs
+    & Goggles/Eadon RPG for Invector/Data/Rpg/Eadon RPG Character Configuration.asset"}'

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e481f9a664473ebd4d126a0723decf, type: 3}
+  m_Name: Hood
+  m_EditorClassIdentifier: 
+  clothingId: 0
+  clothingHolderName: 0
+  clothingType: 1
+  clothingPrefabs:
+  - prefabTag: Clothes
+    prefab: {fileID: 6921421946728178128, guid: 8602c5e89617b9d40a8f44c274a9cdb1, type: 3}
+  offset: {fileID: 0}
+  clothingName: 
+  overrideMaterial: {fileID: 0}
+  materialIndex: 0
+  blockedHolders: 
+  removeDefaultWhenBlocked: 0

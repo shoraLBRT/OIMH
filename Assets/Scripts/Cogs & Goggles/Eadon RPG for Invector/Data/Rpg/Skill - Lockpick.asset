@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5673bb4bb4fc30144bddfccedba3f953, type: 3}
+  m_Name: Skill - Lockpick
+  m_EditorClassIdentifier: 
+  skill: Lockpick
+  minValue: 0
+  maxValue: 99
+  relatedStat: {fileID: 11400000, guid: d06274e39e8fab94fabfc7e8b554bbb7, type: 2}
+  affectsDamage: 0
+  addStatBonusToSkill: 1

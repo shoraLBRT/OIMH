@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1df7598910135d47ac12d256531c9ad, type: 3}
+  m_Name: Eadon RPG Character Configuration
+  m_EditorClassIdentifier: 
+  availableStats:
+  - {fileID: 11400000, guid: 7733e2198ac8fcf459ac160e15d53c93, type: 2}
+  - {fileID: 11400000, guid: d06274e39e8fab94fabfc7e8b554bbb7, type: 2}
+  - {fileID: 11400000, guid: 9da83efeb5a22c545a1bd6f704011785, type: 2}
+  - {fileID: 11400000, guid: ae27b0a0891f90a47bfb8bb22e05ca11, type: 2}
+  - {fileID: 11400000, guid: e9b64fbdcf569874cabeaaea399f14b8, type: 2}
+  - {fileID: 11400000, guid: 61c6d379457a5f448bfe096b71df3793, type: 2}
+  availableSkills:
+  - {fileID: 11400000, guid: adc7de86cceabaa4388ab5303cf69b96, type: 2}
+  - {fileID: 11400000, guid: 1d29ac9e53b52a44a927fbbfc6085fef, type: 2}
+  availableRaces:
+  - {fileID: 11400000, guid: 5c5c2c2648dc66c47aeb3a4991e50dd4, type: 2}
+  - {fileID: 11400000, guid: 03613fb75f0b2084498d0962c7dea1a4, type: 2}
+  - {fileID: 11400000, guid: b9b1f133c4916e944bb994348f3d4f1b, type: 2}
+  availableClasses:
+  - {fileID: 11400000, guid: 7a1a0c6abd26e174c8e7f0556a1bd6b8, type: 2}
+  - {fileID: 11400000, guid: 29c4cb328930f1d4eb24ac22a65d8a31, type: 2}
+  - {fileID: 11400000, guid: c50768f00654d8942a5f58dca0a9af49, type: 2}
+  availableAlignments:
+  - {fileID: 11400000, guid: 2c7b17ed3887f784cac6b2b8a266ed11, type: 2}
+  - {fileID: 11400000, guid: d0c3121b56942bf41a986c58195e8f12, type: 2}
+  availableDamageTypes:
+  - {fileID: 11400000, guid: 7b7844a628c9d3f4c919ecba9a2dc32a, type: 2}
+  - {fileID: 11400000, guid: f8928f3d7247f8d40ab9d9ccc7182b7e, type: 2}
+  - {fileID: 11400000, guid: fced4866b1f12d844b5c04bd583507f9, type: 2}
+  availableTalents:
+  - {fileID: 11400000, guid: 5f3fa986a07aa46cebdd8879759ecc24, type: 2}
+  - {fileID: 11400000, guid: 9f9d390a790934ca38d567d43a2155f5, type: 2}
+  - {fileID: 11400000, guid: b162f80e2dc814be78ea02eeaadfc360, type: 2}

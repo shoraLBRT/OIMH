@@ -4,7 +4,40 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - CinemachineTarget
+  - Action
+  - AutoCrouch
+  - Ragdoll
+  - Ignore Ragdoll
+  - Boss
+  - Enemy
+  - CompanionAI
+  - Weapon
+  - LookAt
+  - Dirt
+  - Wood
+  - Metal
+  - Concrete
+  - Glass
+  - Water
+  - LadderTrigger
+  - ExitWater
+  - Barrel
+  - FreeClimb
+  - ClimbDirection
+  - Zipline
+  - PlayerUI
+  - Collectable
+  - CoverPoint
+  - Interactable
+  - AIAction
+  - Synty Medium Farm
+  - Synty Tree
+  - Synty Small Farm
+  - PW - Nature
+  - Camera
+  - Props
+  - ClingPoint
+  - Clothes
   layers:
   - Default
   - TransparentFX
@@ -14,8 +47,17 @@ TagManager:
   - UI
   - 
   - 
-  - Character
-  - Ground
+  - Player
+  - Enemy
+  - CompanionAI
+  - Triggers
+  - StopMove
+  - DestroyItDebris
+  - HeadTrack
+  - BodyPart
+  - BlockAIRayCast
+  - Pushable
+  - CoverPoint
   - 
   - 
   - 
@@ -28,16 +70,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PostProcess
   m_SortingLayers:
   - name: Default
     uniqueID: 0
